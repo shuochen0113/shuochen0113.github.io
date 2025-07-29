@@ -35,28 +35,17 @@
     {% endif %}
 
     <style>
-      /* Enlarge avatar image */
       .image.avatar img {
-        width: 150px;
+        width: 160px;
         height: auto;
       }
 
-      /* Prevent line wrapping in left sidebar */
-      nav {
+      .sidebar-info {
         white-space: nowrap;
       }
-      email, position {
-        display: inline;
-      }
 
-      /* Adjust font family for Chinese characters */
-      body, h1, position, email, a, p, div, span {
-        font-family: "Noto Sans SC", sans-serif;
-      }
-
-      /* Expand overall page layout width */
       .wrapper {
-        max-width: 1200px;
+        max-width: 1100px;
         margin-left: auto;
         margin-right: auto;
       }
@@ -78,17 +67,19 @@
 
         <h1>{{ site.title }}</h1>
 
-        {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-        <br>
-        {% endif %}
-        {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
-        <br>
-        {% endif %}
-        {% if site.email %}
-        <email>{{ site.email }}</email>
-        {% endif %}
+        <div class="sidebar-info">
+          {% if site.position %}
+          <position style="font-size:1.10rem;">{{ site.position }}</position>
+          <br>
+          {% endif %}
+          {% if site.affiliation %}
+          <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+          <br>
+          {% endif %}
+          {% if site.email %}
+          <email>{{ site.email }}</email>
+          {% endif %}
+        </div>
 
         <br>
         <br>
