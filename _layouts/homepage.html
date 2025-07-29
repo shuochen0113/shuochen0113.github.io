@@ -34,46 +34,27 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
 
-    <style>
-      .homepage-wrapper {
-        max-width: 1800px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .image.avatar img {
-        width: 160px;
-        height: auto;
-      }
-
-      .sidebar-info {
-        white-space: nowrap;
-      }
-
-      body, html {
-        font-family: "Serif", serif;
-        font-weight: 400;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-
-      /* Override for Chinese characters only */
-      @font-face {
-        font-family: "CustomChinese";
-        src: local("Songti SC"), local("Microsoft YaHei");
-        unicode-range: U+4E00-9FFF;
-      }
-
-      * {
-        font-family: inherit;
-      }
-
-      h1 {
-        font-family: "Serif", "CustomChinese", serif;
-      }
-    </style>
 
   </head>
+  <style>
+    .homepage-wrapper {
+      max-width: 1200px;
+    }
+
+    .image.avatar img {
+      width: 160px;
+      height: 160px;
+    }
+
+    .homepage-title {
+      display: block;
+      width: 100%;
+      font-size: 2rem;
+      white-space: nowrap;
+      overflow-wrap: normal;
+      word-break: keep-all;
+    }
+  </style>
   <body>
     <div class="wrapper homepage-wrapper">
       <nav style="text-align:center; margin-top: 1rem; margin-bottom: 2rem;">
@@ -87,7 +68,9 @@
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
 
-        <h1>{{ site.title }}</h1>
+        <div class="homepage-title">
+          <h1>{{ site.title }}</h1>
+        </div>
 
         <div class="sidebar-info">
           {% if site.position %}
