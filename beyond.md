@@ -13,13 +13,12 @@ Outside of research, I find meaning and balance through photography, cultural ex
 
 I love photography. It's been a part of my life since high school, helping me document people, places, and moments I care about. Recently, I’ve grown especially fond of shooting with film. There's something really special about the slow, deliberate process and the surprise of seeing how each shot turns out.
 
-<div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 10px;">
+<div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 10px; margin:10px">
   <img src="assets/images/photo1.jpg" width="150">
   <img src="assets/images/photo2.jpg" width="150">
   <img src="assets/images/photo3.jpg" width="150">
   <img src="assets/images/photo4.jpg" width="150">
 </div>
-
 
 ## Global Experiences
 

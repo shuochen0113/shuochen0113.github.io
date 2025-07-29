@@ -35,6 +35,12 @@
     {% endif %}
 
     <style>
+      .homepage-wrapper {
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
       .image.avatar img {
         width: 160px;
         height: auto;
@@ -44,16 +50,17 @@
         white-space: nowrap;
       }
 
-      .wrapper {
-        max-width: 1100px;
-        margin-left: auto;
-        margin-right: auto;
+      body, html {
+        font-family: "Helvetica Neue", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
       }
     </style>
 
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper homepage-wrapper">
       <nav style="text-align:center; margin-top: 1rem; margin-bottom: 2rem;">
         <a href="/" style="margin: 0 15px;">Home</a>
         <a href="/cv.html" style="margin: 0 15px;">CV</a>
