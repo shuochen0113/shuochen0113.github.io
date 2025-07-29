@@ -36,7 +36,7 @@
 
     <style>
       .homepage-wrapper {
-        max-width: 1400px;
+        max-width: 1800px;
         margin-left: auto;
         margin-right: auto;
       }
@@ -51,10 +51,25 @@
       }
 
       body, html {
-        font-family: "Helvetica Neue", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+        font-family: "Serif", serif;
         font-weight: 400;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* Override for Chinese characters only */
+      @font-face {
+        font-family: "CustomChinese";
+        src: local("Songti SC"), local("Microsoft YaHei");
+        unicode-range: U+4E00-9FFF;
+      }
+
+      * {
+        font-family: inherit;
+      }
+
+      h1 {
+        font-family: "Serif", "CustomChinese", serif;
       }
     </style>
 
