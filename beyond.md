@@ -26,14 +26,14 @@ I love photography. It's been a part of my life since high school, helping me do
   Participated in a three-week academic summer program. It was a meaningful experience that gave me a taste of the academic culture in the U.S. and helped me reflect on my future direction.
 
   <div align="center">
-    <img src="assets/images/berkeley.jpg" width="600" style="margin:10px">
+    <img src="assets/images/berkeley.jpg" width="500" style="margin:10px">
   </div>
 
 - **Sustainable Innovation Workshop, Bali** — Summer 2024
   Attended a workshop in Bali focused on sustainable design and global innovation strategies. Engaged with students and professionals from diverse backgrounds and presented a poster about my second-year research projects.
 
   <div align="center">
-    <img src="assets/images/bali.jpg" width="600" style="margin:10px">
+    <img src="assets/images/bali.jpg" width="500" style="margin:10px">
   </div>
 
 
@@ -41,12 +41,12 @@ I love photography. It's been a part of my life since high school, helping me do
   Semester-long exchange program. Immersed in the U.S. academic environment, collaborated with international peers, and deepened my appreciation for interdisciplinary research and cultural diversity.
 
   <div align="center">
-    <img src="assets/images/neu.jpg" width="600" style="margin:10px">
+    <img src="assets/images/neu.jpg" width="500" style="margin:10px">
   </div>
 
 - **Spain Social Practice Program** — February 2025  
   Participated in a Tsinghua-led social practice program focused on international collaborative innovation. We visited Barcelona and Madrid, exploring topics such as urban development, sustainability, and cross-cultural exchange.
 
   <div align="center">
-    <img src="assets/images/spain1.jpg" width="600" style="margin:10px">
+    <img src="assets/images/spain1.jpg" width="500" style="margin:10px">
   </div>

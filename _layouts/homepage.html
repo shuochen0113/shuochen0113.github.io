@@ -42,8 +42,8 @@
     }
 
     .image.avatar img {
-      width: 160px;
-      height: 160px;
+      width: 200px;
+      height: 200px;
     }
 
     .homepage-title {
@@ -82,13 +82,13 @@
           <br>
           {% endif %}
           {% if site.email %}
-          <email>{{ site.email }}</email>
+          <span style="white-space: nowrap;"><email>{{ site.email }}</email></span>
           {% endif %}
         </div>
 
         <br>
         <br>
-        <div class="social-icons">
+        <div class="social-icons" style="margin-top: -0.5rem;">
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
@@ -119,7 +119,6 @@
         </a>
         {% endif %}
         </div>
-        <br>
 
       </header>
       <section>
