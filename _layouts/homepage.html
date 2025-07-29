@@ -34,6 +34,34 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
 
+    <style>
+      /* Enlarge avatar image */
+      .image.avatar img {
+        width: 150px;
+        height: auto;
+      }
+
+      /* Prevent line wrapping in left sidebar */
+      nav {
+        white-space: nowrap;
+      }
+      email, position {
+        display: inline;
+      }
+
+      /* Adjust font family for Chinese characters */
+      body, h1, position, email, a, p, div, span {
+        font-family: "Noto Sans SC", sans-serif;
+      }
+
+      /* Expand overall page layout width */
+      .wrapper {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+
   </head>
   <body>
     <div class="wrapper">

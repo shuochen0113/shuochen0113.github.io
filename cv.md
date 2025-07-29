@@ -2,7 +2,7 @@
 layout: homepage
 title: CV
 permalink: /cv.html
----------
+---
 
 ## Education
 
@@ -17,7 +17,6 @@ permalink: /cv.html
   *Aug 2024 – Dec 2024*
   GPA: 3.92 / 4.00
 
----
 
 ## Research Experience
 
@@ -29,14 +28,12 @@ permalink: /cv.html
   *Undergraduate Research Assistant with Prof. Shuwen Deng*
   FPGA-based system evaluation of CXL memory interconnect. Built Verilog pipelines and testbenches.
 
----
 
 ## Awards
 
 * Academic Excellence Scholarship, Tsinghua University (2023–2024)
 * Good Reading Scholarship, Tsinghua University (2022–2023)
 
----
 
 ## Technical Skills
 

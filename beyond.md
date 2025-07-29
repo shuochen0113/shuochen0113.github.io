@@ -8,22 +8,20 @@ permalink: /beyond.html
 
 Outside of research, I find meaning and balance through photography, cultural exploration, and global learning experiences. These moments outside the lab not only help me stay grounded, but often provide fresh perspectives that enrich my academic work.
 
----
 
-### Photography
+## Photography
 
 I love photography. It's been a part of my life since high school, helping me document people, places, and moments I care about. Recently, I’ve grown especially fond of shooting with film. There's something really special about the slow, deliberate process and the surprise of seeing how each shot turns out.
 
 <div style="display: flex; justify-content: center; flex-wrap: nowrap; gap: 10px;">
-  <img src="assets/images/photo1.jpg" width="250">
-  <img src="assets/images/photo2.jpg" width="250">
-  <img src="assets/images/photo3.jpg" width="250">
-  <img src="assets/images/photo4.jpg" width="250">
+  <img src="assets/images/photo1.jpg" width="150">
+  <img src="assets/images/photo2.jpg" width="150">
+  <img src="assets/images/photo3.jpg" width="150">
+  <img src="assets/images/photo4.jpg" width="150">
 </div>
 
----
 
-### Global Experiences
+## Global Experiences
 
 - **UC Berkeley Summer Session** — Summer 2023  
   Participated in a three-week academic summer program. It was a meaningful experience that gave me a taste of the academic culture in the U.S. and helped me reflect on my future direction.
@@ -53,5 +51,3 @@ I love photography. It's been a part of my life since high school, helping me do
   <div align="center">
     <img src="assets/images/spain1.jpg" width="600" style="margin:10px">
   </div>
-
----
