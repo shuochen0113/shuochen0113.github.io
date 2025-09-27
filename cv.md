@@ -40,4 +40,4 @@ permalink: /cv.html
 
 * **Programming**: C/C++, Python, Verilog, Shell, MATLAB
 * **Tools & Frameworks**: CUDA, Triton, Cadence, Synopsys, Vivado, Git, Linux, LaTeX
-* **English Proficiency**: TOEFL 108 (R29, L28, S24, W27), GRE 325 (V155, Q170)
+* **English Proficiency**: TOEFL 108 (R29, L28, S24, W27), GRE 325 (V155, Q170, AW4.5)
