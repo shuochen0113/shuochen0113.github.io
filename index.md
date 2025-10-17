@@ -4,9 +4,11 @@ layout: homepage
 
 ## About Me
 
-I’m a senior undergraduate student at [Tsinghua University](https://www.tsinghua.edu.cn/en/), majoring in [Microelectronic Science and Engineering](https://www.ee.tsinghua.edu.cn/en/).
+I am a senior undergraduate student at [Tsinghua University](https://www.tsinghua.edu.cn/en/), majoring in [Microelectronic Science and Engineering](https://www.ee.tsinghua.edu.cn/en/).
 
-During my undergraduate study, I’ve been fortunate to receive guidance from [Prof. Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/) at Cornell University and [Prof. Shuwen Deng](https://www.thu-haslab.org/author/shuwen-deng/) at Tsinghua University, whose mentorship inspired my research interest in computer architecture and hardware/software systems. I also deeply appreciate the longstanding support from [Prof. Maokun Li](https://web.ee.tsinghua.edu.cn/limaokun1/en/index.htm), who has served as my faculty advisor throughout my undergraduate years.
+Since 2025, I have been a research intern at the [Computer Systems Laboratory](https://zhang.ece.cornell.edu/) of [Cornell University](https://www.cornell.edu/), advised by [Prof. Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/). My research interests lie in building efficient computer systems and exploring cross-layer co-design for AI and heterogeneous computing.
+
+Previously, I conducted undergraduate research at the [THU HAS Lab](https://www.thu-haslab.org/), advised by [Prof. Shuwen Deng](https://www.thu-haslab.org/author/shuwen-deng/). I have also been mentored by [Prof. Maokun Li](https://web.ee.tsinghua.edu.cn/limaokun1/en/index.htm), who has provided long-term guidance during my undergraduate studies.
 
 **I will graduate in 2026 and am actively seeking Ph.D. opportunities for Fall 2026!**
 

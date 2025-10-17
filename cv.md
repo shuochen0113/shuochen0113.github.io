@@ -24,6 +24,7 @@ permalink: /cv.html
 * **Cornell University**
   - *Research Intern with Prof. Zhiru Zhang*
   - A Compiler-Extended Triton Framework for GPU Sequence Alignment. Focus on memory locality, modular API, and high-performance implementation.
+  - *Manuscript in preparation for submission to ASPLOS ’27*
 
 * **Tsinghua University**
   - *Undergraduate Research Assistant with Prof. Shuwen Deng*
