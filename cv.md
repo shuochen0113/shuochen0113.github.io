@@ -24,16 +24,17 @@ permalink: /cv.html
 * **Cornell University**
   - *Research Intern with Prof. Zhiru Zhang*
   - A Compiler-Extended Triton Framework for GPU Sequence Alignment. Focus on memory locality, modular API, and high-performance implementation.
-  - *Manuscript in preparation for submission to ASPLOS ’27*
+  - *Manuscript in preparation for submission.*
 
 * **Tsinghua University**
   - *Undergraduate Research Assistant with Prof. Shuwen Deng*
   - FPGA-based system evaluation of CXL memory interconnect. Built Verilog pipelines and testbenches.
 
 
-## Awards
+## Honors and Awards
 
-* Academic Excellence Scholarship, Tsinghua University (2023–2024)
+* Comprehensive Excellence Scholarship, Tsinghua University (2024-2025)
+* Academic Excellence Scholarship, Tsinghua University (2024-2025, 2023–2024)
 * Good Reading Scholarship, Tsinghua University (2022–2023)
 
 
