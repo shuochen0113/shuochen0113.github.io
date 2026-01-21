@@ -21,21 +21,30 @@ permalink: /cv.html
 
 ## Research Experience
 
-* **Cornell University**
+* **Cornell University** (Nov. 2024 - Present)
   - *Research Intern with Prof. Zhiru Zhang*
-  - A Compiler-Extended Triton Framework for GPU Sequence Alignment. Focus on memory locality, modular API, and high-performance implementation.
+  - A Compiler-Extended Triton Framework for GPU Sequence Alignment. 
+  - Focus on memory locality, modular API design, and high-performance implementation for irregular workloads.
   - *Manuscript in preparation for submission.*
 
-* **Tsinghua University**
-  - *Undergraduate Research Assistant with Prof. Shuwen Deng*
-  - FPGA-based system evaluation of CXL memory interconnect. Built Verilog pipelines and testbenches.
+* **Tsinghua University** (Oct. 2025 - Present)
+  - *Research Assistant with Prof. Bowen Zhou & Dr. Youbang Sun*
+  - System Infrastructure for Ultra-Large Hyper-Sparse MoE.
+  - Focus on efficient serving infrastructure and custom GroupedGEMM kernel optimization for scaling fine-grained MoE architectures.
+
+* **Tsinghua University** (Sep. 2023 - Jun. 2024)
+  - *Research Assistant with Prof. Shuwen Deng*
+  - FPGA-based System Evaluation of CXL Memory Interconnect.
+  - Focus on Verilog module design and hardware benchmarking for emerging memory interconnects.
+
+
 
 
 ## Honors and Awards
 
-* Comprehensive Excellence Scholarship, Tsinghua University (2024-2025)
-* Academic Excellence Scholarship, Tsinghua University (2024-2025, 2023–2024)
-* Good Reading Scholarship, Tsinghua University (2022–2023)
+* Tsinghua Alumni - Zhihua Integrated Circuit Scholarship (Top 5%), Nov. 2025
+* Academic Excellence Scholarship of Tsinghua University (Top 10%), Nov. 2025 & Nov. 2024
+* Good Reading Scholarship of Tsinghua University, Nov. 2023
 
 
 ## Technical Skills

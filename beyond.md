@@ -22,7 +22,8 @@ I love photography. It's been a part of my life since high school, helping me do
 
 ## Global Experiences
 
-- **UC Berkeley Summer Session** — Summer 2023  
+- **UC Berkeley Summer Session** — Summer 2023
+
   Participated in a three-week academic summer program. It was a meaningful experience that gave me a taste of the academic culture in the U.S. and helped me reflect on my future direction.
 
   <div style="text-align: center; margin: 10px 0;">
@@ -30,6 +31,7 @@ I love photography. It's been a part of my life since high school, helping me do
   </div>
 
 - **Sustainable Innovation Workshop, Bali** — Summer 2024
+  
   Attended a workshop in Bali focused on sustainable design and global innovation strategies. Engaged with students and professionals from diverse backgrounds and presented a poster about my second-year research projects.
 
   <div style="text-align: center; margin: 10px 0;">
@@ -38,6 +40,7 @@ I love photography. It's been a part of my life since high school, helping me do
 
 
 - **Northeastern University, Boston** — Fall 2024  
+  
   Semester-long exchange program. Immersed in the U.S. academic environment, collaborated with international peers, and deepened my appreciation for interdisciplinary research and cultural diversity.
 
   <div style="text-align: center; margin: 10px 0;">
@@ -45,6 +48,7 @@ I love photography. It's been a part of my life since high school, helping me do
   </div>
 
 - **Spain Social Practice Program** — February 2025  
+  
   Participated in a Tsinghua-led social practice program focused on international collaborative innovation. We visited Barcelona and Madrid, exploring topics such as urban development, sustainability, and cross-cultural exchange.
 
   <div style="text-align: center; margin: 10px 0;">
