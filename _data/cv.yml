@@ -1,0 +1,98 @@
+cv:
+  name: Shuochen Chen
+  label: Ph.D. Student
+  email: shuoche2@andrew.cmu.edu
+  location: Pittsburgh, PA, USA
+  image: ""
+
+  social_networks:
+    - network: GitHub
+      username: shuochen0113
+
+  sections:
+    Education:
+      - institution: Carnegie Mellon University
+        location: Pittsburgh, PA, USA
+        area: Electrical and Computer Engineering
+        studyType: Ph.D.
+        start_date: 2026-08
+        end_date: Present
+
+      - institution: Tsinghua University
+        location: Beijing, China
+        area: Mathematics and Physics; Microelectronics Science and Engineering
+        studyType: B.S. and B.E. (Dual Degree)
+        start_date: 2022-08
+        end_date: 2026-06
+        score: 3.90 / 4.00
+        highlights:
+          - Top 10% in Tsinghua EE.
+
+      - institution: Northeastern University
+        location: Boston, MA, USA
+        area: Electrical and Computer Engineering
+        studyType: Semester Exchange
+        date: 2024
+        score: 3.92 / 4.00
+
+    Experience:
+      - company: Cornell University
+        position: Research Intern with Prof. Zhiru Zhang
+        location: Ithaca, NY, USA
+        start_date: 2024-11
+        end_date: 2026-04
+        highlights:
+          - "Triton-Seq: A compiler-extended Triton framework for GPU-accelerated Smith-Waterman sequence alignment."
+          - Developed optimized Triton kernels and custom MLIR passes for automatic shared-memory optimization.
+
+      - company: Tsinghua University
+        position: Research Assistant with Prof. Bowen Zhou & Dr. Youbang Sun
+        location: Beijing, China
+        start_date: 2025-10
+        end_date: 2026-06
+        highlights:
+          - "UFG-GGEMM: High-performance grouped matrix multiplication for fine-grained and ultra-fine-grained Mixture-of-Experts workloads."
+          - Developed GPU-resident routing metadata and shape-aware CUDA kernels for heterogeneous GPU architectures.
+
+      - company: Tsinghua University
+        position: Research Assistant with Prof. Shuwen Deng
+        location: Beijing, China
+        start_date: 2023-09
+        end_date: 2024-06
+        highlights:
+          - FPGA-based System Evaluation of CXL Memory Interconnect.
+          - Focus on Verilog module design and hardware benchmarking for emerging memory interconnects.
+
+    Awards:
+      - title: Outstanding Graduate of Tsinghua University (Top 10%)
+        date: 2026-06
+        awarder: Tsinghua University
+
+      - title: Comprehensive Excellence Scholarship of Tsinghua University (Top 5%)
+        date: 2025-11
+        awarder: Tsinghua University · Sponsored by the Zhihua Integrated Circuit Scholarship
+
+      - title: Academic Excellence Scholarship of Tsinghua University (Top 10%)
+        date: 2025-11
+        awarder: Tsinghua University
+
+      - title: Academic Excellence Scholarship of Tsinghua University (Top 10%)
+        date: 2024-11
+        awarder: Tsinghua University
+
+      - title: Good Reading Scholarship of Tsinghua University
+        date: 2023-11
+        awarder: Tsinghua University
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "C/C++, Python, Verilog, Shell, MATLAB"
+
+      - name: Tools & Frameworks
+        icon: fa-solid fa-microchip
+        keywords: "CUDA, Triton, Cadence, Synopsys, Vivado, Git, Linux, LaTeX"
+
+      - name: English Proficiency
+        icon: fa-solid fa-language
+        keywords: "TOEFL 108 (R29, L28, S24, W27), GRE 325 (V155, Q170, AW4.5)"

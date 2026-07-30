@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img" aria-labelledby="title desc">
+  <title id="title">UFG-GGEMM performance relative to DeepGEMM</title>
+  <desc id="desc">A line chart across 128 to 6144 experts. UFG-GGEMM crosses parity at 512 experts and reaches 1.33 times DeepGEMM at 6144 experts.</desc>
+  <defs>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#751184" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#751184" stop-opacity=".02"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="520" rx="20" fill="#ffffff"/>
+  <text x="70" y="52" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="650" fill="#2f4858">Relative BF16 throughput as expert count increases</text>
+  <text x="70" y="78" font-family="Inter,Arial,sans-serif" font-size="13.5" fill="#5c7a8a">H800 PCIe 80 GB · T=131072 · K=2048 · N=768 · uniform routing · validated API</text>
+
+  <g stroke="#e5e9eb" stroke-width="1">
+    <line x1="92" y1="384" x2="1034" y2="384"/>
+    <line x1="92" y1="316" x2="1034" y2="316"/>
+    <line x1="92" y1="248" x2="1034" y2="248"/>
+    <line x1="92" y1="180" x2="1034" y2="180"/>
+    <line x1="92" y1="112" x2="1034" y2="112"/>
+  </g>
+  <g font-family="Inter,Arial,sans-serif" font-size="12" fill="#73858d" text-anchor="end">
+    <text x="80" y="388">0.7×</text>
+    <text x="80" y="320">0.9×</text>
+    <text x="80" y="252">1.1×</text>
+    <text x="80" y="184">1.3×</text>
+    <text x="80" y="116">1.5×</text>
+  </g>
+
+  <line x1="92" y1="282" x2="1034" y2="282" stroke="#5c7a8a" stroke-width="2" stroke-dasharray="7 7"/>
+  <rect x="878" y="260" width="156" height="22" rx="5" fill="#ffffff"/>
+  <text x="1028" y="276" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600" fill="#5c7a8a">DeepGEMM parity</text>
+
+  <path d="M112 363.6 L262 322.8 L412 237.8 L562 265 L712 217.4 L862 186.8 L1012 170.2 L1012 418 L112 418 Z" fill="url(#area)"/>
+  <path d="M112 363.6 L262 322.8 L412 237.8 L562 265 L712 217.4 L862 186.8 L1012 170.2" fill="none" stroke="#751184" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <g fill="#ffffff" stroke="#751184" stroke-width="4">
+    <circle cx="112" cy="363.6" r="6"/>
+    <circle cx="262" cy="322.8" r="6"/>
+    <circle cx="412" cy="237.8" r="6"/>
+    <circle cx="562" cy="265" r="6"/>
+    <circle cx="712" cy="217.4" r="6"/>
+    <circle cx="862" cy="186.8" r="6"/>
+    <circle cx="1012" cy="170.2" r="6"/>
+  </g>
+
+  <g font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#2f4858" text-anchor="middle">
+    <text x="112" y="447">128</text>
+    <text x="262" y="447">256</text>
+    <text x="412" y="447">512</text>
+    <text x="562" y="447">1,024</text>
+    <text x="712" y="447">2,048</text>
+    <text x="862" y="447">4,096</text>
+    <text x="1012" y="447">6,144</text>
+    <text x="563" y="487" font-size="13" font-weight="600" fill="#5c7a8a">Number of experts</text>
+  </g>
+
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="90" y="327" width="70" height="26" rx="7" fill="#f8f4fa"/>
+    <text x="125" y="345" text-anchor="middle" font-size="12.5" font-weight="700" fill="#751184">0.76×</text>
+    <rect x="382" y="197" width="82" height="27" rx="7" fill="#751184"/>
+    <text x="423" y="216" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">crossover</text>
+    <rect x="940" y="126" width="78" height="28" rx="7" fill="#751184"/>
+    <text x="979" y="145" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">1.33×</text>
+  </g>
+
+  <text x="1028" y="503" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="11" fill="#89979d">Model FLOP/s; DeepGEMM 2.4.2 measured on the same system.</text>
+</svg>

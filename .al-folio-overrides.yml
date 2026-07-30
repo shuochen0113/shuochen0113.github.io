@@ -1,0 +1,17 @@
+---
+version: 1
+overrides:
+  _includes/cv/render.liquid:
+    owner: al_folio_cv
+    gem_version: 1.0.2
+    upstream_path: templates/cv/render.liquid
+    upstream_sha256: eaff444ab8d7407008e422ecc4be3c56c586fe2397951d54dbfb6aef7fc2eac0
+    local_sha256: 18171304e5b93fd24b20facb5bbb01db8df4093b87f780622535456b603e963e
+    acknowledged_at: "2026-07-30"
+  assets/css/main.scss:
+    owner: al_folio_core
+    gem_version: 1.0.12
+    upstream_path: assets/css/main.scss
+    upstream_sha256: 437c6c911c596391413e435dc0ea7095e682e85c572c1fd3fff69f9597455b3e
+    local_sha256: e2b61662211adaf3b1f1db3630cc3a94778755c8f846d0b892be390781229fca
+    acknowledged_at: "2026-07-31"
