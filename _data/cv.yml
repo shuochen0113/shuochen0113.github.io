@@ -83,16 +83,3 @@ cv:
       - title: Good Reading Scholarship of Tsinghua University
         date: 2023-11
         awarder: Tsinghua University
-
-    Skills:
-      - name: Programming
-        icon: fa-solid fa-code
-        keywords: "C/C++, Python, Verilog, Shell, MATLAB"
-
-      - name: Tools & Frameworks
-        icon: fa-solid fa-microchip
-        keywords: "CUDA, Triton, Cadence, Synopsys, Vivado, Git, Linux, LaTeX"
-
-      - name: English Proficiency
-        icon: fa-solid fa-language
-        keywords: "TOEFL 108 (R29, L28, S24, W27), GRE 325 (V155, Q170, AW4.5)"
