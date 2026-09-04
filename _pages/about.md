@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Student · Carnegie Mellon University
+subtitle: Ph.D. Student @ Carnegie Mellon University
 
 profile:
   align: right
@@ -24,16 +24,20 @@ latest_posts:
   limit: 3
 ---
 
-## About Me
+{% assign logo = "/assets/img/logos/" %}
 
-I am a Ph.D. student in [Electrical and Computer Engineering](https://www.ece.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/).
+Hi! 👋 I'm Shuochen Chen (陈烁宸), a first-year Ph.D. student in [Electrical and Computer Engineering](https://www.ece.cmu.edu/) at <span class="org">[Carnegie Mellon University](https://www.cmu.edu/)<img class="org-logo" src="{{ logo | append: 'cmu.png' | relative_url }}" alt="Carnegie Mellon University"></span>. I'm a member of <span class="org">[InfiniAI Lab](https://www.infini-ai-lab.cmu.edu/)<img class="org-logo" src="{{ logo | append: 'infiniai.png' | relative_url }}" alt="InfiniAI Lab"></span>, <span class="org">[Catalyst](https://catalyst.cs.cmu.edu/)<img class="org-logo" src="{{ logo | append: 'catalyst.png' | relative_url }}" alt="Catalyst Group"></span>, <span class="org">[CyLab](https://www.cylab.cmu.edu/)<img class="org-logo org-logo--wordmark" src="{{ logo | append: 'cylab.png' | relative_url }}" alt="CyLab Security and Privacy Institute"></span>, and am advised by [Prof. Beidi Chen](https://www.andrew.cmu.edu/user/beidic/) and [Prof. Limin Jia](https://www.andrew.cmu.edu/user/liminjia/).
 
-Before joining CMU, I completed my undergraduate studies at [Tsinghua University](https://www.tsinghua.edu.cn/en/) with dual degrees: a [B.S. in Mathematics and Physics](https://www.wyc.tsinghua.edu.cn/EN/About.htm) and a [B.E. in Microelectronics Science and Engineering](https://www.ee.tsinghua.edu.cn/en/).
-
-During my undergraduate years, I worked with [Prof. Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/) at the [Computer Systems Laboratory](https://zhang.ece.cornell.edu/) of [Cornell University](https://www.cornell.edu/), [Prof. Bowen Zhou](https://c3i.ee.tsinghua.edu.cn/en/author/bowen-zhou/) and [Dr. Youbang Sun](https://c3i.ee.tsinghua.edu.cn/en/author/youbang-sun/) at the [Center for Collaborative & Conversational Intelligence, Tsinghua University](https://c3i.ee.tsinghua.edu.cn/en/), and [Prof. Shuwen Deng](https://www.thu-haslab.org/author/shuwen-deng/) at the [THU HAS Lab](https://www.thu-haslab.org/).
+Before joining CMU, I completed my undergraduate studies at <span class="org">[Tsinghua University](https://www.tsinghua.edu.cn/en/)<img class="org-logo org-logo--lift" src="{{ logo | append: 'tsinghua.png' | relative_url }}" alt="Tsinghua University"></span>, where I earned dual degrees, a B.S. in Mathematics and Physics and a B.E. in Electronic Engineering. At Tsinghua, I worked with [Prof. Bowen Zhou](https://c3i.ee.tsinghua.edu.cn/people/bowen_zhou/) and [Dr. Youbang Sun](https://c3i.ee.tsinghua.edu.cn/people/youbang_sun/) at the <span class="org">[Center for Collaborative & Conversational Intelligence](https://c3i.ee.tsinghua.edu.cn/)<img class="org-logo org-logo--lift" src="{{ logo | append: 'c3i.png' | relative_url }}" alt="Center for Collaborative and Conversational Intelligence"></span>. During my undergraduate years, I also worked with [Prof. Zhiru Zhang](https://www.csl.cornell.edu/~zhiruz/) at the <span class="org">[Computer Systems Laboratory](https://zhang.ece.cornell.edu/)<img class="org-logo" src="{{ logo | append: 'csl.png' | relative_url }}" alt="Computer Systems Laboratory, Cornell University"></span> of <span class="org">[Cornell University](https://www.cornell.edu/)<img class="org-logo" src="{{ logo | append: 'cornell.png' | relative_url }}" alt="Cornell University"></span>.
 
 ## Research Interests
 
-My research interests include MLSys, AI infrastructure, and high-performance computing.
+I'm broadly interested in building efficient computing systems for AI through hardware-software co-design, with a particular focus on GPU programming, heterogeneous computing, and systems support for emerging AI workloads.
 
-My academic focus centers on hardware-software co-design for heterogeneous computing, with a particular emphasis on GPU system optimization. I am drawn to build general-purpose, high-performance systems that democratize efficiency for AI models and scientific discovery (e.g., bioinformatics).
+I aim to develop general-purpose systems and techniques that make high-performance computing more accessible for AI and scientific applications, while exploring how compilers, programming systems, and intelligent or agentic approaches can improve the way computing systems are programmed, optimized, and designed.
+
+## Connect
+
+I'm always happy to chat about research, AI systems, emerging trends in computing, or any other interesting topics. Feel free to [email me](mailto:shuoche2@andrew.cmu.edu) to schedule a time to chat.
+
+**Email**: shuoche2 [at] andrew [dot] cmu [dot] edu

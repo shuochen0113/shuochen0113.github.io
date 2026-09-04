@@ -1,0 +1,106 @@
+# Gallery for the "Beyond" page.
+#
+# To add a photo: drop the file in assets/img/photos/ and append an entry here.
+# Nothing else needs to change - the layout places it automatically, whatever its
+# aspect ratio. Entries render in the order listed (newest first reads best).
+#
+#   file:  required. Filename inside assets/img/photos/
+#   date:  optional. Free text, e.g. "June 2026"
+#   place: optional. Free text, e.g. "Fethiye, Türkiye"
+#   emoji: optional. One or two characters
+#   alt:   optional but recommended. Describes the image for screen readers;
+#          falls back to the caption text when omitted.
+#
+# The caption is assembled from whichever of date/place/emoji are present, so a
+# photo with only a place still looks right, and a photo with none renders with
+# no caption at all.
+
+- file: itaewon.JPG
+  place: Itaewon, Seoul, South Korea
+  emoji: 🌇
+  alt: Caught the sunset at just at the blue hour.
+
+- file: revere_beach.JPG
+  place: Revere Beach, Massachusetts, USA
+  emoji: 🕙
+  alt: A quiet evening by the water with romantic pink sunset glow.
+
+- file: machaster-by-the-sea_ma.jpg
+  place: Manchester-by-the-Sea, Massachusetts, USA
+  emoji: 🚉
+  alt: Reminds me of the sad movie.
+
+- file: griffith.JPG
+  place: Griffith Observatory, Los Angeles, CA, USA
+  emoji: 🌃
+  alt: LA felt especially good that evening.
+
+- file: fuji.JPG
+  place: Fujikawaguchiko, Yamanashi, Japan
+  emoji: 🗻
+  alt: Still hard to believe this was real.
+
+- file: tsinghua_spring.JPG
+  place: Tsinghua University, Beijing, China
+  emoji: 🌸
+  alt: A chill spring afternoon.
+
+- file: yangzhuoyongcuo_lake.jpg
+  place: Yamdrok Lake, Tibet, China
+  emoji: 🩵
+  alt: Breathtaking blue at an altitude of over 4,000 meters.
+
+- file: salimu_lake.jpg
+  place: Sayram Lake, Xinjiang, China
+  emoji: 💧
+  alt: I could just have stared at this color all day.
+
+- file: ili.JPG
+  place: Ili, Xinjiang, China
+  emoji: 🌿
+  alt: Free is the grass right under your feet.
+
+- file: hot_airballon_turkey.jpg
+  place: Cappadocia, Türkiye
+  emoji: 🎈
+  alt: Worth waking up before sunrise!
+
+- file: tokyo_tower.jpg
+  place: Tokyo, Japan
+  emoji: 🗼
+  alt: Rain made Tokyo look even better.
+
+- file: sagrada_familia.jpg
+  place: Barcelona, Spain
+  emoji: ⛪
+  alt: Gaudi's magic stole my heart.
+
+- file: maine_lighthouse.jpg
+  place: Cape Elizabeth, Maine, USA
+  emoji: 🌊
+  alt: A very New England kind of day.
+
+- file: phuket_freedom_beach.jpg
+  place: Freedom Beach, Phuket, Thailand
+  emoji: 🏝️
+  alt: Who could have worries at a sunny beach beside crystal-clear waters?
+
+- file: cliff_mohor.jpg
+  place: Cliffs of Moher, Ireland
+  emoji: 🍀
+  alt: Me and My Wild Atlantic Way.
+
+- file: chatsworth_house.JPG
+  place: Chatsworth House, Derbyshire, England
+  emoji: 🏛️
+  alt: It turns out the world of Pride and Prejudice actually exists.
+
+- file: london_tower_bridge.JPG
+  place: London, England
+  emoji: 🌉
+  alt: London looked pretty good from up here.
+
+- file: turkey_d400.JPG
+  place: D400, Antalya Province, Türkiye
+  emoji: 🚗
+  alt: Drove along the world's most beautiful Mediterranean coastal road.

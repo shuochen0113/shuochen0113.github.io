@@ -10,35 +10,16 @@ contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Shuochen Chen, a Ph.D. student in Electrical and Computer Engineering at Carnegie Mellon University, interested in MLSys, AI infrastructure, and high-performance computing.
 footer_text: >
-  Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Last updated: July 2026.
+  Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Last updated: September 2026.
 keywords: Shuochen Chen, Carnegie Mellon University, CMU ECE, MLSys, AI infrastructure, high-performance computing
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.png # preserved for preview; the final favicon will be redesigned separately
+icon: favicon-light.png # dark-mode variant (favicon-dark.png) is wired up in _layouts/default.liquid
 
 url: https://shuochen0113.github.io
 baseurl:
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
-
-# -----------------------------------------------------------------------------
-# Theme
-# -----------------------------------------------------------------------------
-
-# repo color theme
-repo_theme_light: default # https://github.com/stats-organization/github-stats-extended/blob/master/packages/core/src/themes/README.md
-repo_theme_dark: dark # https://github.com/stats-organization/github-stats-extended/blob/master/packages/core/src/themes/README.md
-repo_trophies:
-  enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
-
-# External service URLs for repository page
-# To use a different instance or service for displaying GitHub stats and trophies,
-# update these URLs. These are used in the repository templates.
-external_services:
-  github_readme_stats_url: https://github-stats-extended.vercel.app
-  github_profile_trophy_url: https://github-profile-trophy.vercel.app
 
 # -----------------------------------------------------------------------------
 # al-folio API (v1.x)
@@ -88,7 +69,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 1080px
+max_width: 960px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -203,21 +184,11 @@ include: ["_pages"]
 exclude:
   - al-folio-preview/
   - bin/
-  - Dockerfile
-  - docker-compose.yml
-  - docker-compose-slim.yml
-  - docs/
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - README.md
-  - readme_preview/
-  - gems/
-  - migrations/
   - vendor
 keep_files:
   - CNAME

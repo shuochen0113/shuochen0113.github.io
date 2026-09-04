@@ -3,8 +3,8 @@
   <desc id="desc">A line chart across 128 to 6144 experts. UFG-GGEMM crosses parity at 512 experts and reaches 1.33 times DeepGEMM at 6144 experts.</desc>
   <defs>
     <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#751184" stop-opacity=".24"/>
-      <stop offset="1" stop-color="#751184" stop-opacity=".02"/>
+      <stop offset="0" stop-color="#c41230" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#c41230" stop-opacity=".02"/>
     </linearGradient>
   </defs>
   <rect width="1100" height="520" rx="20" fill="#ffffff"/>
@@ -31,9 +31,9 @@
   <text x="1028" y="276" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600" fill="#5c7a8a">DeepGEMM parity</text>
 
   <path d="M112 363.6 L262 322.8 L412 237.8 L562 265 L712 217.4 L862 186.8 L1012 170.2 L1012 418 L112 418 Z" fill="url(#area)"/>
-  <path d="M112 363.6 L262 322.8 L412 237.8 L562 265 L712 217.4 L862 186.8 L1012 170.2" fill="none" stroke="#751184" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M112 363.6 L262 322.8 L412 237.8 L562 265 L712 217.4 L862 186.8 L1012 170.2" fill="none" stroke="#c41230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
 
-  <g fill="#ffffff" stroke="#751184" stroke-width="4">
+  <g fill="#ffffff" stroke="#c41230" stroke-width="4">
     <circle cx="112" cy="363.6" r="6"/>
     <circle cx="262" cy="322.8" r="6"/>
     <circle cx="412" cy="237.8" r="6"/>
@@ -55,11 +55,11 @@
   </g>
 
   <g font-family="Inter,Arial,sans-serif">
-    <rect x="90" y="327" width="70" height="26" rx="7" fill="#f8f4fa"/>
-    <text x="125" y="345" text-anchor="middle" font-size="12.5" font-weight="700" fill="#751184">0.76×</text>
-    <rect x="382" y="197" width="82" height="27" rx="7" fill="#751184"/>
+    <rect x="90" y="327" width="70" height="26" rx="7" fill="#faf4f5"/>
+    <text x="125" y="345" text-anchor="middle" font-size="12.5" font-weight="700" fill="#c41230">0.76×</text>
+    <rect x="382" y="197" width="82" height="27" rx="7" fill="#c41230"/>
     <text x="423" y="216" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">crossover</text>
-    <rect x="940" y="126" width="78" height="28" rx="7" fill="#751184"/>
+    <rect x="940" y="126" width="78" height="28" rx="7" fill="#c41230"/>
     <text x="979" y="145" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">1.33×</text>
   </g>
 

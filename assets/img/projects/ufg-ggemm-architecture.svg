@@ -3,11 +3,11 @@
   <desc id="desc">The stable PyTorch API feeds GPU routing metadata and a shape-aware dispatcher, which selects Hopper dense or fine-grained kernels or a portable CUTLASS fallback.</desc>
   <defs>
     <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#3f0750"/>
-      <stop offset="1" stop-color="#751184"/>
+      <stop offset="0" stop-color="#500713"/>
+      <stop offset="1" stop-color="#c41230"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f8f4fa"/>
+      <stop offset="0" stop-color="#faf4f5"/>
       <stop offset="1" stop-color="#f4f7f8"/>
     </linearGradient>
     <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
@@ -18,25 +18,25 @@
     </marker>
   </defs>
   <rect width="1200" height="430" rx="20" fill="#ffffff"/>
-  <text x="56" y="54" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2.2" fill="#751184">UFG-GGEMM</text>
+  <text x="56" y="54" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2.2" fill="#c41230">UFG-GGEMM</text>
   <text x="56" y="84" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="600" fill="#2f4858">One stable contract, schedules specialized for routing granularity</text>
 
   <g filter="url(#shadow)">
     <rect x="56" y="122" width="236" height="218" rx="16" fill="url(#hero)"/>
-    <text x="80" y="158" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#dcbce2">PYTORCH API</text>
+    <text x="80" y="158" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#e2bcc2">PYTORCH API</text>
     <text x="80" y="197" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" font-weight="600" fill="#ffffff">grouped_mm(</text>
-    <text x="98" y="226" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15" fill="#f2ddf5">input [T,K],</text>
-    <text x="98" y="253" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15" fill="#f2ddf5">weight [E,N,K],</text>
-    <text x="98" y="280" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15" fill="#f2ddf5">offsets [E])</text>
-    <text x="80" y="319" font-family="Inter,Arial,sans-serif" font-size="13" fill="#ead6ee">Autograd · CUDA Graph · compile</text>
+    <text x="98" y="226" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15" fill="#f5dde1">input [T,K],</text>
+    <text x="98" y="253" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15" fill="#f5dde1">weight [E,N,K],</text>
+    <text x="98" y="280" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15" fill="#f5dde1">offsets [E])</text>
+    <text x="80" y="319" font-family="Inter,Arial,sans-serif" font-size="13" fill="#eed6da">Autograd · CUDA Graph · compile</text>
   </g>
 
   <path d="M304 231 H354" stroke="#5c7a8a" stroke-width="2.5" marker-end="url(#arrow)"/>
 
   <g filter="url(#shadow)">
-    <rect x="370" y="122" width="280" height="218" rx="16" fill="url(#panel)" stroke="#ded5e1"/>
-    <text x="394" y="158" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#751184">GPU-RESIDENT CONTROL</text>
-    <circle cx="412" cy="201" r="17" fill="#751184"/>
+    <rect x="370" y="122" width="280" height="218" rx="16" fill="url(#panel)" stroke="#e1d5d7"/>
+    <text x="394" y="158" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#c41230">GPU-RESIDENT CONTROL</text>
+    <circle cx="412" cy="201" r="17" fill="#c41230"/>
     <path d="M404 201 h16 M412 193 v16" stroke="#ffffff" stroke-width="2"/>
     <text x="442" y="198" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#2f4858">Routing metadata</text>
     <text x="442" y="218" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#5c7a8a">empty-expert safe work tiles</text>
@@ -44,19 +44,19 @@
     <path d="M402 264 h20 M402 270 h14 M402 276 h9" stroke="#ffffff" stroke-width="2"/>
     <text x="442" y="266" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#2f4858">Shape-aware dispatch</text>
     <text x="442" y="286" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#5c7a8a">active experts · mean rows · K/N</text>
-    <text x="394" y="319" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#751184">No device-to-host routing read</text>
+    <text x="394" y="319" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#c41230">No device-to-host routing read</text>
   </g>
 
   <path d="M662 231 H712" stroke="#5c7a8a" stroke-width="2.5" marker-end="url(#arrow)"/>
 
   <g filter="url(#shadow)">
-    <rect x="728" y="110" width="416" height="242" rx="16" fill="#ffffff" stroke="#ded5e1"/>
-    <text x="752" y="143" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#751184">EXECUTION BACKENDS</text>
-    <rect x="752" y="163" width="176" height="70" rx="11" fill="#f8f4fa"/>
-    <text x="768" y="189" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="650" fill="#3f0750">Dense Hopper</text>
+    <rect x="728" y="110" width="416" height="242" rx="16" fill="#ffffff" stroke="#e1d5d7"/>
+    <text x="752" y="143" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#c41230">EXECUTION BACKENDS</text>
+    <rect x="752" y="163" width="176" height="70" rx="11" fill="#faf4f5"/>
+    <text x="768" y="189" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="650" fill="#500713">Dense Hopper</text>
     <text x="768" y="211" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#5c7a8a">128×256 TMA/WGMMA</text>
-    <rect x="944" y="163" width="176" height="70" rx="11" fill="#f8f4fa"/>
-    <text x="960" y="189" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="650" fill="#3f0750">Fine-grained Hopper</text>
+    <rect x="944" y="163" width="176" height="70" rx="11" fill="#faf4f5"/>
+    <text x="960" y="189" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="650" fill="#500713">Fine-grained Hopper</text>
     <text x="960" y="211" font-family="Inter,Arial,sans-serif" font-size="12.5" fill="#5c7a8a">64×128 + multicast</text>
     <rect x="752" y="249" width="368" height="70" rx="11" fill="#f4f7f8"/>
     <text x="768" y="275" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="650" fill="#2f4858">Portable fallback</text>
