@@ -10,7 +10,7 @@ contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Shuochen Chen, a Ph.D. student in Electrical and Computer Engineering at Carnegie Mellon University, interested in MLSys, AI infrastructure, and high-performance computing.
 footer_text: >
-  Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Last updated: September 2026.
+  Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Last updated: Oct 2026.
 keywords: Shuochen Chen, Carnegie Mellon University, CMU ECE, MLSys, AI infrastructure, high-performance computing
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon-light.png # dark-mode variant (favicon-dark.png) is wired up in _layouts/default.liquid
