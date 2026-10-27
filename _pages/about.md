@@ -6,7 +6,7 @@ subtitle: Ph.D. Student @ Carnegie Mellon University
 
 profile:
   align: right
-  image: profile.png
+  image: shuochen-chen.jpg
   image_circular: false
   more_info:
 
