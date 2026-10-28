@@ -258,16 +258,19 @@ html[data-theme="dark"] .org-logo--lift {
 }
 
 .cv-contact-table {
+  table-layout: fixed;
+
   th,
   td {
     vertical-align: top;
+    padding: 0.35rem 0;
   }
 
   th {
-    width: 1%;
+    width: 8rem;
     white-space: nowrap;
     text-align: left;
-    padding-right: 1.25rem;
+    padding-right: 2rem;
   }
 }
 
