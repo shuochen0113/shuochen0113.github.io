@@ -10,29 +10,29 @@
       {% if cv.name or cv.label or cv.location or cv.email %}
         <div class="card mt-3 p-3">
           <h3 class="card-title font-weight-medium">Contact Information</h3>
-          <table class="table table-cv table-sm table-borderless">
+          <table class="table table-cv table-sm table-borderless cv-contact-table">
             {% if cv.name %}
               <tr>
-                <td class="p-1 pr-2 font-weight-bold"><b>Name</b></td>
+                <th scope="row" class="p-1 pr-2 font-weight-bold">Name</th>
                 <td class="p-1 pl-2 font-weight-light">{{ cv.name }}</td>
               </tr>
             {% endif %}
             {% if cv.label %}
               <tr>
-                <td class="p-1 pr-2 font-weight-bold"><b>Professional Title</b></td>
+                <th scope="row" class="p-1 pr-2 font-weight-bold">Position</th>
                 <td class="p-1 pl-2 font-weight-light">{{ cv.label }}</td>
               </tr>
             {% endif %}
             {% if cv.email %}
               <tr>
-                <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
+                <th scope="row" class="p-1 pr-2 font-weight-bold">Email</th>
                 <td class="p-1 pl-2 font-weight-light">{{ cv.email }}</td>
               </tr>
             {% endif %}
             {% if cv.location %}
               <tr>
-                <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
-                <td class="p-1 pl-2 font-weight-light">{{ cv.location }}</td>
+                <th scope="row" class="p-1 pr-2 font-weight-bold">Address</th>
+                <td class="p-1 pl-2 font-weight-light">{{ cv.location | escape | newline_to_br }}</td>
               </tr>
             {% endif %}
           </table>

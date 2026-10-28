@@ -2,7 +2,11 @@ cv:
   name: Shuochen Chen
   label: Ph.D. Student
   email: shuoche2@andrew.cmu.edu
-  location: Robert Mehrabian Collaborative Innovation Center, 4720 Forbes Avenue, Pittsburgh, PA 15213, USA
+  location: |-
+    Carnegie Mellon University
+    Robert Mehrabian Collaborative Innovation Center
+    4720 Forbes Avenue
+    Pittsburgh, PA 15213, USA
   image: ""
 
   social_networks:

@@ -256,3 +256,40 @@ html[data-theme="dark"] .org-logo--lift {
     overflow-wrap: anywhere;
   }
 }
+
+.cv-contact-table {
+  th,
+  td {
+    vertical-align: top;
+  }
+
+  th {
+    width: 1%;
+    white-space: nowrap;
+    text-align: left;
+    padding-right: 1.25rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .cv-contact-table {
+    &,
+    tbody,
+    tr,
+    th,
+    td {
+      display: block;
+      width: 100%;
+    }
+
+    tr + tr {
+      margin-top: 0.75rem;
+    }
+
+    th,
+    td {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
