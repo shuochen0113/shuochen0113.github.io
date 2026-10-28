@@ -1,0 +1,37 @@
+.cv .cv-contact-table {
+  table-layout: fixed;
+}
+
+.cv .cv-contact-table th,
+.cv .cv-contact-table td {
+  vertical-align: top;
+  padding: 0.35rem 0;
+}
+
+.cv .cv-contact-table th {
+  width: 8rem;
+  white-space: nowrap;
+  text-align: left;
+  padding-right: 2rem;
+}
+
+@media (max-width: 575px) {
+  .cv .cv-contact-table,
+  .cv .cv-contact-table tbody,
+  .cv .cv-contact-table tr,
+  .cv .cv-contact-table th,
+  .cv .cv-contact-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .cv .cv-contact-table tr + tr {
+    margin-top: 0.75rem;
+  }
+
+  .cv .cv-contact-table th,
+  .cv .cv-contact-table td {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

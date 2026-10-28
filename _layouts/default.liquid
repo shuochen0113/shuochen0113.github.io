@@ -13,6 +13,9 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+    {% if page.cv_format %}
+      <link rel="stylesheet" href="{{ '/assets/css/cv-contact.css' | relative_url | bust_file_cache }}">
+    {% endif %}
 
     <!--
       Local override: al_folio_core's head.liquid emits a single favicon link from
